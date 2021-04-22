@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+}
+
+.login-bg {
+	background-image: url(../images/bg.JPG);
+	height: 100%;
+	background-size: cover;
+}
+
+.navbar-light a {
+
+	color: white !important;
+	font-weight: thin;
+	font-size: 1rem;
+}
+
+.full-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5); 
+}
+	
+.cart {
+	background: white;
+	padding: 10px 15px;
+	border-radius: 50%;
+	color: red;
+	transition: 1s ease;
+}
+
+.cart:hover {
+	color: white;
+}
+
+
+.line {
+
+	background: darkblue;
+	width: 60px;
+	height: 2px;
+	display: block
+}
+
+.text-primary {
+	color: darkblue !important
+}
+
+.carousel-item img {
+
+	height: 600px;
+	background-size: cover
+}
+
+.center {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.form-control {
+	box-shadow: none;
+}
